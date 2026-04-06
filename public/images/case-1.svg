@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="wall1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ece5d3"/>
+      <stop offset="100%" stop-color="#c8bfa6"/>
+    </linearGradient>
+    <linearGradient id="floor1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a6e54"/>
+      <stop offset="100%" stop-color="#3e3826"/>
+    </linearGradient>
+    <radialGradient id="lt1" cx="50%" cy="15%" r="60%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff5d8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="g1" width="3" height="3" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.4" fill="#000" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="700" fill="url(#wall1)"/>
+  <rect y="700" width="1200" height="200" fill="url(#floor1)"/>
+  <polygon points="0,700 1200,700 1080,760 120,760" fill="#5a4f37" opacity="0.6"/>
+  <rect x="430" y="100" width="340" height="70" fill="#2c2620"/>
+  <rect x="445" y="108" width="310" height="22" fill="#1a1612"/>
+  <rect x="475" y="142" width="60" height="22" fill="#0e0c0a"/>
+  <rect x="665" y="142" width="60" height="22" fill="#0e0c0a"/>
+  <line x1="600" y1="170" x2="600" y2="280" stroke="#1a1612" stroke-width="2" opacity="0.5"/>
+  <line x1="180" y1="0" x2="180" y2="700" stroke="#8a7d62" stroke-opacity="0.35" stroke-width="1"/>
+  <line x1="1020" y1="0" x2="1020" y2="700" stroke="#8a7d62" stroke-opacity="0.35" stroke-width="1"/>
+  <line x1="0" y1="500" x2="1200" y2="500" stroke="#8a7d62" stroke-opacity="0.18" stroke-width="1"/>
+  <rect x="240" y="540" width="180" height="160" fill="#5a4f37" opacity="0.4"/>
+  <rect x="780" y="560" width="200" height="140" fill="#5a4f37" opacity="0.35"/>
+  <rect width="1200" height="900" fill="url(#lt1)"/>
+  <rect width="1200" height="900" fill="url(#g1)"/>
+</svg>

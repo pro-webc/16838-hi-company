@@ -1,0 +1,26 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="ed1bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdfbf6"/>
+      <stop offset="100%" stop-color="#e8e1cf"/>
+    </linearGradient>
+    <radialGradient id="ed1lt" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#fff7e0" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#fff7e0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="ed1g" width="3" height="3" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.4" fill="#3a2f1c" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#ed1bg)"/>
+  <rect width="1200" height="900" fill="url(#ed1lt)"/>
+  <g opacity="0.75">
+    <circle cx="600" cy="450" r="220" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+    <circle cx="600" cy="450" r="160" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <circle cx="600" cy="450" r="100" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+    <line x1="380" y1="450" x2="820" y2="450" stroke="#1a1a1a" stroke-width="0.6"/>
+    <line x1="600" y1="230" x2="600" y2="670" stroke="#1a1a1a" stroke-width="0.6"/>
+  </g>
+  <line x1="80" y1="780" x2="1120" y2="780" stroke="#d8d4cc" stroke-width="1"/>
+  <rect width="1200" height="900" fill="url(#ed1g)"/>
+</svg>

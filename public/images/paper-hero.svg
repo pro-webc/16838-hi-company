@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdfbf6"/>
+      <stop offset="55%" stop-color="#faf8f3"/>
+      <stop offset="100%" stop-color="#f1ede2"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f8f3e6" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#f8f3e6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#e8dfc8" stop-opacity="0.5"/>
+    </linearGradient>
+    <radialGradient id="light" cx="78%" cy="22%" r="60%">
+      <stop offset="0%" stop-color="#fff7e0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff7e0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="shadow" cx="14%" cy="86%" r="55%">
+      <stop offset="0%" stop-color="#8a7e64" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#8a7e64" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grain" x="0" y="0" width="3" height="3" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.45" fill="#3a2f1c" fill-opacity="0.05"/>
+    </pattern>
+    <pattern id="weave" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M0 60 L60 0" stroke="#a89c84" stroke-opacity="0.04" stroke-width="0.6"/>
+      <path d="M0 0 L60 60" stroke="#a89c84" stroke-opacity="0.03" stroke-width="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#paper)"/>
+  <rect width="1600" height="900" fill="url(#warm)"/>
+  <rect width="1600" height="900" fill="url(#light)"/>
+  <rect width="1600" height="900" fill="url(#shadow)"/>
+  <rect width="1600" height="900" fill="url(#weave)"/>
+  <rect width="1600" height="900" fill="url(#grain)"/>
+  <line x1="0" y1="780" x2="1600" y2="780" stroke="#d8d4cc" stroke-width="1"/>
+  <line x1="120" y1="0" x2="120" y2="900" stroke="#d8d4cc" stroke-width="1" stroke-opacity="0.4"/>
+  <line x1="1480" y1="0" x2="1480" y2="900" stroke="#d8d4cc" stroke-width="1" stroke-opacity="0.3"/>
+  <g opacity="0.06">
+    <rect x="1240" y="640" width="160" height="50" fill="#1a1a1a"/>
+    <rect x="1255" y="650" width="130" height="14" fill="#0a0a0a"/>
+    <rect x="1270" y="675" width="22" height="10" fill="#0a0a0a"/>
+    <rect x="1340" y="675" width="22" height="10" fill="#0a0a0a"/>
+  </g>
+</svg>

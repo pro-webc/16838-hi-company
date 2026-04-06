@@ -1,0 +1,46 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ch1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2EEE2"/>
+      <stop offset="100%" stop-color="#C8BEA0"/>
+    </linearGradient>
+    <radialGradient id="ch2" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="chg" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.4" fill="#000" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#ch1)"/>
+  <g stroke="#1A1A1A" stroke-width="1" fill="none" opacity="0.18">
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="200" y1="0" x2="200" y2="540"/>
+    <line x1="500" y1="0" x2="500" y2="540"/>
+    <line x1="800" y1="0" x2="800" y2="540"/>
+    <line x1="1100" y1="0" x2="1100" y2="540"/>
+  </g>
+  <g fill="#2A2A2A">
+    <rect x="280" y="140" width="220" height="140"/>
+    <rect x="300" y="160" width="180" height="100" fill="#3D3D3D"/>
+    <line x1="300" y1="190" x2="480" y2="190" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="300" y1="220" x2="480" y2="220" stroke="#1A1A1A" stroke-width="1"/>
+    <circle cx="390" cy="210" r="14" fill="#1A1A1A"/>
+  </g>
+  <g fill="#2A2A2A">
+    <rect x="700" y="140" width="220" height="140"/>
+    <rect x="720" y="160" width="180" height="100" fill="#3D3D3D"/>
+    <line x1="720" y1="190" x2="900" y2="190" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="720" y1="220" x2="900" y2="220" stroke="#1A1A1A" stroke-width="1"/>
+    <circle cx="810" cy="210" r="14" fill="#1A1A1A"/>
+  </g>
+  <g stroke="#1A1A1A" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M390 140 L390 80 L600 80 L600 140"/>
+    <path d="M810 140 L810 80 L600 80"/>
+  </g>
+  <rect y="540" width="1200" height="260" fill="#9C8C6B"/>
+  <rect width="1200" height="800" fill="url(#ch2)"/>
+  <rect width="1200" height="800" fill="url(#chg)"/>
+</svg>

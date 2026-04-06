@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="paperC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FAF8F3"/>
+      <stop offset="100%" stop-color="#F0EBDE"/>
+    </linearGradient>
+    <radialGradient id="lightC" cx="75%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grainC" x="0" y="0" width="3" height="3" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.4" fill="#1A1A1A" fill-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#paperC)"/>
+  <rect width="1600" height="900" fill="url(#lightC)"/>
+  <g stroke="#1A1A1A" stroke-opacity="0.1" stroke-width="0.5" fill="none">
+    <line x1="950" y1="180" x2="1500" y2="180"/>
+    <line x1="950" y1="260" x2="1500" y2="260"/>
+    <line x1="950" y1="340" x2="1500" y2="340"/>
+    <line x1="950" y1="420" x2="1500" y2="420"/>
+    <line x1="950" y1="500" x2="1500" y2="500"/>
+    <line x1="950" y1="580" x2="1500" y2="580"/>
+    <line x1="950" y1="660" x2="1300" y2="660"/>
+  </g>
+  <g fill="#1A1A1A" fill-opacity="0.2" font-family="Outfit, sans-serif" font-weight="300" font-size="10" letter-spacing="2">
+    <text x="950" y="170">— inquiry form</text>
+    <text x="950" y="200">01 / subject</text>
+    <text x="950" y="280">02 / name</text>
+    <text x="950" y="360">03 / email</text>
+    <text x="950" y="440">04 / phone</text>
+    <text x="950" y="520">05 / message</text>
+  </g>
+  <g stroke="#1A1A1A" stroke-opacity="0.06" stroke-width="0.5" fill="none">
+    <line x1="0" y1="800" x2="1600" y2="800"/>
+  </g>
+  <rect width="1600" height="900" fill="url(#grainC)"/>
+</svg>

@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#faf9f6"/>
+      <stop offset="100%" stop-color="#f1ede4"/>
+    </linearGradient>
+    <radialGradient id="light" cx="78%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8e3d8" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#d8d4cc" stop-opacity="0.55"/>
+    </linearGradient>
+    <pattern id="grain" x="0" y="0" width="3" height="3" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.4" fill="#1a1a1a" fill-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#paper)"/>
+  <rect width="1600" height="900" fill="url(#light)"/>
+  <!-- distant building section, lower right -->
+  <g opacity="0.10" stroke="#1a1a1a" stroke-width="1" fill="none">
+    <rect x="900" y="540" width="320" height="240"/>
+    <line x1="900" y1="600" x2="1220" y2="600"/>
+    <line x1="900" y1="660" x2="1220" y2="660"/>
+    <line x1="900" y1="720" x2="1220" y2="720"/>
+    <line x1="960" y1="540" x2="960" y2="780"/>
+    <line x1="1020" y1="540" x2="1020" y2="780"/>
+    <line x1="1080" y1="540" x2="1080" y2="780"/>
+    <line x1="1140" y1="540" x2="1140" y2="780"/>
+    <rect x="1240" y="600" width="220" height="180"/>
+    <line x1="1240" y1="640" x2="1460" y2="640"/>
+    <line x1="1240" y1="680" x2="1460" y2="680"/>
+    <line x1="1240" y1="720" x2="1460" y2="720"/>
+    <line x1="1300" y1="600" x2="1300" y2="780"/>
+    <line x1="1360" y1="600" x2="1360" y2="780"/>
+    <line x1="1420" y1="600" x2="1420" y2="780"/>
+  </g>
+  <!-- AC outdoor unit silhouette -->
+  <g opacity="0.13" stroke="#1a1a1a" stroke-width="1.2" fill="none">
+    <rect x="1310" y="790" width="220" height="80" rx="2"/>
+    <line x1="1330" y1="808" x2="1510" y2="808"/>
+    <line x1="1330" y1="822" x2="1510" y2="822"/>
+    <line x1="1330" y1="836" x2="1510" y2="836"/>
+    <line x1="1330" y1="850" x2="1510" y2="850"/>
+    <circle cx="1395" cy="830" r="26"/>
+    <circle cx="1395" cy="830" r="16"/>
+    <circle cx="1395" cy="830" r="3" fill="#1a1a1a"/>
+  </g>
+  <!-- Hairline horizontal rules -->
+  <line x1="0" y1="540" x2="1600" y2="540" stroke="#d8d4cc" stroke-width="0.5" stroke-dasharray="2 8"/>
+  <line x1="0" y1="780" x2="1600" y2="780" stroke="#d8d4cc" stroke-width="1"/>
+  <!-- Vertical hairline -->
+  <line x1="540" y1="0" x2="540" y2="900" stroke="#d8d4cc" stroke-width="0.5" stroke-dasharray="2 8"/>
+  <rect width="1600" height="900" fill="url(#ground)"/>
+  <rect width="1600" height="900" fill="url(#grain)"/>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAF8F3"/>
+      <stop offset="55%" stop-color="#F5F1E6"/>
+      <stop offset="100%" stop-color="#ECE5D2"/>
+    </linearGradient>
+    <linearGradient id="paper2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FAF8F3" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#E8E0CB" stop-opacity="0.5"/>
+    </linearGradient>
+    <radialGradient id="light" cx="78%" cy="22%" r="58%">
+      <stop offset="0%" stop-color="#FFF6DD" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#FFF6DD" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFF6DD" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="shadow" cx="15%" cy="92%" r="55%">
+      <stop offset="0%" stop-color="#1A1A1A" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldfade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A24A" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C9A24A" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#C9A24A" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grain" x="0" y="0" width="3" height="3" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.4" fill="#1A1A1A" fill-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#paper)"/>
+  <rect width="1600" height="900" fill="url(#paper2)"/>
+  <rect width="1600" height="900" fill="url(#light)"/>
+  <rect width="1600" height="900" fill="url(#shadow)"/>
+
+  <g opacity="0.20" stroke="#1A1A1A" stroke-width="0.6" fill="none">
+    <rect x="1075" y="220" width="420" height="290"/>
+    <line x1="1080" y1="245" x2="1490" y2="245"/>
+    <line x1="1080" y1="270" x2="1490" y2="270"/>
+    <line x1="1080" y1="295" x2="1490" y2="295"/>
+    <line x1="1080" y1="320" x2="1490" y2="320"/>
+    <line x1="1080" y1="345" x2="1490" y2="345"/>
+    <line x1="1080" y1="370" x2="1490" y2="370"/>
+    <line x1="1080" y1="395" x2="1490" y2="395"/>
+    <line x1="1080" y1="420" x2="1490" y2="420"/>
+    <line x1="1080" y1="445" x2="1490" y2="445"/>
+    <line x1="1080" y1="470" x2="1490" y2="470"/>
+    <line x1="1080" y1="495" x2="1490" y2="495"/>
+    <line x1="1075" y1="220" x2="1075" y2="510" stroke-width="1"/>
+    <line x1="1495" y1="220" x2="1495" y2="510" stroke-width="1"/>
+  </g>
+
+  <g opacity="0.22" stroke="#1A1A1A" stroke-width="0.5" fill="none">
+    <path d="M 1075 320 C 880 350, 660 400, 420 420"/>
+    <path d="M 1075 360 C 860 400, 600 460, 360 480"/>
+    <path d="M 1075 400 C 840 450, 540 520, 300 540"/>
+    <path d="M 1075 440 C 820 500, 480 580, 240 600"/>
+    <path d="M 1075 480 C 800 540, 420 620, 180 640"/>
+  </g>
+
+  <g opacity="0.14" stroke="#1A1A1A" stroke-width="0.4" fill="none">
+    <circle cx="1285" cy="365" r="60"/>
+    <circle cx="1285" cy="365" r="42"/>
+    <circle cx="1285" cy="365" r="24"/>
+    <line x1="1245" y1="365" x2="1325" y2="365"/>
+    <line x1="1285" y1="325" x2="1285" y2="405"/>
+  </g>
+
+  <line x1="0" y1="640" x2="1600" y2="640" stroke="#1A1A1A" stroke-opacity="0.14" stroke-width="0.5"/>
+  <line x1="0" y1="700" x2="1600" y2="700" stroke="#1A1A1A" stroke-opacity="0.08" stroke-width="0.5"/>
+  <line x1="0" y1="760" x2="1600" y2="760" stroke="#1A1A1A" stroke-opacity="0.05" stroke-width="0.5"/>
+
+  <rect x="200" y="639" width="1200" height="1" fill="url(#goldfade)"/>
+  <rect x="400" y="699" width="800" height="0.5" fill="url(#goldfade)" opacity="0.5"/>
+
+  <rect width="1600" height="900" fill="url(#grain)"/>
+</svg>

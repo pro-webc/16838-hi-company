@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="b1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E5DCC2"/>
+    </linearGradient>
+    <radialGradient id="b1l" cx="70%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#FFF5DB" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FFF5DB" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="b1g" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.4" fill="#000" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#b1)"/>
+  <!-- exploded view aircon -->
+  <g stroke="#1A1A1A" stroke-width="1.5" fill="none" opacity="0.6">
+    <rect x="300" y="200" width="600" height="280"/>
+    <rect x="340" y="240" width="520" height="200"/>
+    <line x1="340" y1="290" x2="860" y2="290"/>
+    <line x1="340" y1="340" x2="860" y2="340"/>
+    <line x1="340" y1="390" x2="860" y2="390"/>
+    <circle cx="600" cy="340" r="50"/>
+    <circle cx="600" cy="340" r="35"/>
+    <circle cx="600" cy="340" r="18"/>
+  </g>
+  <g stroke="#1A1A1A" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M300 200 L240 140 L500 140"/>
+    <path d="M900 200 L960 140 L760 140"/>
+    <path d="M300 480 L240 540"/>
+    <path d="M900 480 L960 540"/>
+  </g>
+  <g fill="#1A1A1A" opacity="0.5">
+    <circle cx="240" cy="140" r="4"/>
+    <circle cx="960" cy="140" r="4"/>
+  </g>
+  <rect width="1200" height="800" fill="url(#b1l)"/>
+  <rect width="1200" height="800" fill="url(#b1g)"/>
+</svg>

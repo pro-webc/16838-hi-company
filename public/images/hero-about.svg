@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="paperA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAF8F3"/>
+      <stop offset="100%" stop-color="#EEE9DC"/>
+    </linearGradient>
+    <radialGradient id="lightA" cx="80%" cy="15%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="shadeA" cx="20%" cy="100%" r="70%">
+      <stop offset="0%" stop-color="#1A1A1A" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grainA" x="0" y="0" width="3" height="3" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.4" fill="#1A1A1A" fill-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#paperA)"/>
+  <rect width="1600" height="900" fill="url(#lightA)"/>
+  <rect width="1600" height="900" fill="url(#shadeA)"/>
+  <g stroke="#1A1A1A" stroke-opacity="0.1" stroke-width="0.5" fill="none">
+    <rect x="1050" y="180" width="430" height="540"/>
+    <line x1="1050" y1="280" x2="1480" y2="280"/>
+    <line x1="1050" y1="380" x2="1480" y2="380"/>
+    <line x1="1050" y1="480" x2="1480" y2="480"/>
+    <line x1="1050" y1="580" x2="1480" y2="580"/>
+    <line x1="1050" y1="680" x2="1480" y2="680"/>
+    <line x1="1265" y1="180" x2="1265" y2="720"/>
+  </g>
+  <g stroke="#1A1A1A" stroke-opacity="0.06" stroke-width="0.5" fill="none">
+    <line x1="0" y1="780" x2="1600" y2="780"/>
+  </g>
+  <g fill="#1A1A1A" fill-opacity="0.2" font-family="Outfit, sans-serif" font-weight="300" font-size="10" letter-spacing="2">
+    <text x="1050" y="160">— studio plan, ota tokyo</text>
+  </g>
+  <rect width="1600" height="900" fill="url(#grainA)"/>
+</svg>
